@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Ferzu Dark Theme
 @namespace      github.com/openstyles/stylus
-@version        0.1.0
+@version        0.1.1
 @description    A Dark theme for Ferzu
 @author         Foxtrek_64
 @homepageURL    https://github.com/Foxtrek64/Ferzu-Dark-Stylus/
@@ -55,6 +55,10 @@
     }
     /* Make sidebar text white instead of dark grey */
     .quicklists a {
+        color: #fff;
+    }
+    /* Makes sidebar text white instead of grey on the profile */
+    .actionitems a {
         color: #fff;
     }
     /* Make "Most clicked hashtags" and "Top newsfeed searches" off-white with no background */
