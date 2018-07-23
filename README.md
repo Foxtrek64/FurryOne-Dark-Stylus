@@ -24,6 +24,6 @@ Pull requests should contain comments describing sections of code and should not
 ### Version 0.1.0
   - Initial Release
   - Known Issues:
-    - Account settings are only partially themed. Attempting to theme these areas results in a phantom white box that obstructs text. Will rectify in later releases.
+    - Account settings and profile pages are only partially themed. Attempting to theme these areas results in a phantom white box that obstructs text. Will rectify in later releases.
   - Planned features:
     - Customization options
