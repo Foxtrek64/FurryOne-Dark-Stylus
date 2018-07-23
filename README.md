@@ -19,6 +19,9 @@ Feel free to fork this theme and make changes as you see fit. This is my first t
 
 Pull requests should contain comments describing sections of code and should not be minimized.
 
+## Found an issue?
+Open an issue here on Github with information on where the issue is present or [PM me on Ferzu](https://www.ferzu.com/Member/Details/Foxtrek_64).
+
 ## Changelog
 
 ### Version 0.1.1
