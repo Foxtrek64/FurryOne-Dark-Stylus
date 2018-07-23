@@ -1,0 +1,105 @@
+/* ==UserStyle==
+@name           Ferzu Dark Theme
+@namespace      github.com/openstyles/stylus
+@version        0.1.0
+@description    A Dark theme for Ferzu
+@author         Foxtrek_64
+@homepageURL    https://github.com/Foxtrek64/Ferzu-Dark-Stylus/
+@updateURL      https://raw.githubusercontent.com/Foxtrek64/Ferzu-Dark-Stylus/ferzu-dark.user.css
+@license        mpl-2.0
+==/UserStyle== */
+
+@-moz-document domain("www.ferzu.com") {
+    /* Overall Text Color */
+    body {
+        color: #fff;
+    }
+    /* Make comments dark */
+    .comment, .comment-add {
+        background-color: #222;
+    }
+    /* Background */
+    div[id="main"] {
+        background-color: #333 !important;
+    }
+    /* Make "What's happening?" area dark */
+    .post-add {
+        background-color: #444;
+    }
+    /* Page labels should be a brighter blue to stand out against dark background.
+       I'm using the blue from the header bar for this */
+    h1, h2, td.right h2, td.left h2, .editor-label label {
+        color: #15b9d5;
+    }
+    /* Some form fields were still black, such as labels on check boxes */
+    .hint {
+        color: #ccc;
+    }
+    /* Uncolor the post date */
+    .post p.date {
+        color: inherit;
+    }
+    /* Color the buttons on posts orange */
+    .post p.date a {
+        color: #f07937;
+    }
+    /* Apply the overridden background gradient on sidebar */
+    table td.left.navt {
+        background: #333;
+        background: -moz-linear-gradient(left,#333 64%, #333 64%, #222 100%);
+        background: -webkit-gradient(linear,left top,right top,color-stop(64%,#333),color-stop(64%,#333),color-stop(100%,#222));
+        background: -webkit-linear-gradient(left,#333 64%,#333 64%,#222 100%);
+        background: -o-linear-gradient(left,#333 64%,#333 64%,#222 100%);
+        background: -ms-linear-gradient(left,#333 64%,#333 64%,#eee 222%);
+        background: linear-gradient(to right,#333 64%,#333 64%,#222 100%)
+    }
+    /* Make sidebar text white instead of dark grey */
+    .quicklists a {
+        color: #fff;
+    }
+    /* Make "Most clicked hashtags" and "Top newsfeed searches" off-white with no background */
+    .popular-list a {
+        color: #ccc;
+        background-color: unset;
+    }
+    
+    
+    /* Messages and instant conversations */
+    /* Make the message date off-white */
+    table.messages {
+        color: #ccc;
+    }
+    /* Make the message selection background off-white */
+    table.messages tr {
+        background-color: #333;
+    }
+    
+    /* Search */
+    /* The slider areas were light grey. Let's fix that. */
+    .slider { 
+    background-color: #222;
+    }
+    
+    /* Slider values are now white on white. Let';'s fix that too. */
+    .jslider .jslider-value {
+        background: unset;
+    }
+    
+    /* Account Setting Themes */
+    /* Disabled for now as it causes issues* /
+    /*
+    .ui-widget-content {
+        background-color: #333;
+        color: #fff;
+    }
+    td.planbasic {
+        background-color: #444;
+    }
+    .planbasic h3 {
+        color: #ccc !important;
+    }
+    td.planitem {
+        background-color: #444;
+    }
+    */
+}
