@@ -10,7 +10,7 @@ You can download Stylus here:
 3. [Opera add-ons](https://addons.opera.com/extensions/details/stylus/) (see [wiki](https://github.com/openstyles/stylus/wiki/Opera,-Outdated-Stylus) for more recent version)
 
 Next, you can install the theme by clicking this link:
-[Coming Soon]
+https://raw.githubusercontent.com/Foxtrek64/Ferzu-Dark-Stylus/master/ferzu-dark.user.css
 
 ## To Contribute
 Feel free to fork this theme and make changes as you see fit. This is my first theme, so there are bound to be areas for improvement. When you're ready, make a pull requests.
