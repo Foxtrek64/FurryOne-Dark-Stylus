@@ -21,6 +21,9 @@ Pull requests should contain comments describing sections of code and should not
 
 ## Changelog
 
+### Version 0.1.1
+  - Fix sidebar text on user profile
+
 ### Version 0.1.0
   - Initial Release
   - Known Issues:
