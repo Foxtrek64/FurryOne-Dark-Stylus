@@ -15,9 +15,11 @@ Next, you can install the theme by clicking this link:
 https://raw.githubusercontent.com/Foxtrek64/Ferzu-Dark-Stylus/master/ferzu-dark.user.css
 
 ## To Contribute
-Feel free to fork this theme and make changes as you see fit. This is my first theme, so there are bound to be areas for improvement. When you're ready, make a pull requests.
+If you would like to contribute to this repository, please...
 
-Pull requests should contain comments describing sections of code and should not be minimized.
+1. 👓 Read the [contribution guidelines](./.github/CONTRIBUTING.md).
+1. ![repo-forked](https://user-images.githubusercontent.com/136959/42383736-c4cb0db8-80fd-11e8-91ca-12bae108bccc.png) [Fork](https://github.com/StylishThemes/GitHub-Dark/fork) or ![cloud-download](https://user-images.githubusercontent.com/136959/42401932-9ee9cae0-813d-11e8-8691-16e29a85d3b9.png) [download](https://github.com/StylishThemes/GitHub-Dark/archive/master.zip) this repository.
+1. 👌 Create a pull request!
 
 ## Found an issue?
 Open an issue here on Github with information on where the issue is present or [PM me on Ferzu](https://www.ferzu.com/Member/Details/Foxtrek_64).
