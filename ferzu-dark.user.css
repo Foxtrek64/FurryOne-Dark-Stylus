@@ -113,4 +113,18 @@
   .messages td.msg-photo {
     border-left: 4px solid #444;
   }
+  
+  /* Currently Online Member List */
+  /* And search results */
+  /* Fix issue with labels being missing on "currently online" list */
+  span.profile-icon {
+    color: #eee;
+  }
+  .member-thumbnail .miniprofile {
+    background-color: #444;
+  }
+  
+  .member-thumbnail .miniprofile h4 {
+    text-shadow: none;
+  }
 }
