@@ -1,5 +1,5 @@
 # Ferzu-Dark-Stylus
-## Version 0.1.2
+### Version 0.1.2
 This is a UserCSS file for use with the firefox and chrome plugin Stylus. It adds a dark theme flavor to Ferzu.
 
 ![Ferzu-Dark-Theme](https://raw.githubusercontent.com/Foxtrek64/Ferzu-Dark-Stylus/master/Ferzu%20Dark%20Theme.png)
