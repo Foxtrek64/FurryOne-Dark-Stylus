@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Ferzu Dark Theme
 @namespace      github.com/openstyles/stylus
-@version        0.1.3
+@version        0.1.4
 @description    A Dark theme for Ferzu
 @author         Foxtrek_64
 @homepageURL    https://github.com/Foxtrek64/Ferzu-Dark-Stylus/
@@ -112,6 +112,10 @@
   }
   .messages td.msg-photo {
     border-left: 4px solid #444;
+  }
+  /* Don't make text color the same as the background when hovering over drop-down items */
+  ul.ui-multiselect-checkboxes .ui-state-hover, ul.ui-multiselect-checkboxes .ui-widget-content .ui-state-hover {
+    color: #eee;
   }
   
   /* Currently Online Member List */
