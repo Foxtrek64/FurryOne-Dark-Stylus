@@ -24,6 +24,12 @@ Open an issue here on Github with information on where the issue is present or [
 
 ## Changelog
 
+### Version 0.1.2
+Additions:
+  - Added dark user profile
+  - Added dark user configuration
+  - Adopted the K&R (KNF variation style) and 2-space-notation
+
 ### Version 0.1.1
   - Fix sidebar text on user profile
 
