@@ -1,5 +1,5 @@
 # Ferzu-Dark-Stylus
-### Version 0.1.4
+### Version 0.1.5
 This is a UserCSS file for use with the firefox and chrome plugin Stylus. It adds a dark theme flavor to Ferzu.
 
 ![Ferzu-Dark-Theme](https://raw.githubusercontent.com/Foxtrek64/Ferzu-Dark-Stylus/master/Ferzu%20Dark%20Theme.png)
@@ -27,6 +27,10 @@ If you would like to contribute to this repository, please...
 Open an issue here on Github with information on where the issue is present or [PM me on Ferzu](https://www.ferzu.com/Member/Details/Foxtrek_64).
 
 ## Changelog
+
+### Version 0.1.5
+Changes:
+  - Changed color of username in followers/following list from grey to orange.
 
 ### Version 0.1.4
 Changes:
