@@ -1,5 +1,5 @@
 ---
-name: Issue Template
+name: Theme Issue
 about: Use this template to describe issues with the theme
 
 ---
