@@ -43,8 +43,8 @@ Additions:
 
 ### Version 0.1.2
 Additions:
-  - Added dark user profile
-  - Added dark user configuration
+  - Added dark user profile (Fixes #1)
+  - Added dark user configuration (Fixes #1)
   - Adopted the K&R (KNF variation style) and 2-space-notation
 
 ### Version 0.1.1
