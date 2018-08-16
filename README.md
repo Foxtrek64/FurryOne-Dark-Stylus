@@ -43,8 +43,8 @@ Additions:
 
 ### Version 0.1.2
 Additions:
-  - Added dark user profile (Fixes #1)
-  - Added dark user configuration (Fixes #1)
+  - Added dark user profile (Fixes [#1](https://github.com/Foxtrek64/Ferzu-Dark-Stylus/issues/1))
+  - Added dark user configuration (Fixes [#1](https://github.com/Foxtrek64/Ferzu-Dark-Stylus/issues/1))
   - Adopted the K&R (KNF variation style) and 2-space-notation
 
 ### Version 0.1.1
