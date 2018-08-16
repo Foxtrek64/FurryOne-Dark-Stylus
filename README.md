@@ -23,8 +23,8 @@ If you would like to contribute to this repository, please...
 1. ![repo-forked](https://user-images.githubusercontent.com/136959/42383736-c4cb0db8-80fd-11e8-91ca-12bae108bccc.png) [Fork](https://github.com/Foxtrek64/Ferzu-Dark-Stylus/fork) or ![cloud-download](https://user-images.githubusercontent.com/136959/42401932-9ee9cae0-813d-11e8-8691-16e29a85d3b9.png) [download](https://github.com/Foxtrek64/Ferzu-Dark-Stylus/archive/master.zip) this repository.
 1. 👌 Create a pull request!
 
-## Found an issue?
-Open an issue here on Github with information on where the issue is present or [PM me on Ferzu](https://www.ferzu.com/Member/Details/Foxtrek_64).
+## Found an issue? Have a suggestion?
+Open an issue here on Github or [PM me on Ferzu](https://www.ferzu.com/Member/Details/Foxtrek_64).
 
 ## Changelog
 
