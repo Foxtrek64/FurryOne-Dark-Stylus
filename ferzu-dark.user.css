@@ -43,6 +43,11 @@
   .post p.date a {
     color: #f07937;
   }
+  /* Fix sticky post background */
+  /* TODO: Replace with dark theme version instead of removing */
+  .post.sticky {
+    background: none;
+  }
   /* Apply the overridden background gradient on sidebar */
   table td.left.navt {
     background: #333;
