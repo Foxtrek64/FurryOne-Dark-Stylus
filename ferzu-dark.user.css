@@ -44,8 +44,8 @@
     color: #f07937;
   }
   /* Fix sticky post background */
-  /* TODO: Replace with dark theme version instead of removing */
   .post.sticky {
+    /* TODO: Replace with dark theme version instead of removing */
     background: none;
   }
   /* Apply the overridden background gradient on sidebar */
