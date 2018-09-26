@@ -28,6 +28,12 @@ Open an issue here on Github or [PM me on Ferzu](https://www.ferzu.com/Member/De
 
 ## Changelog
 
+### Version 0.1.6
+Changes:
+  - Remove sticky post background
+  - Will re-add when background is adapted for light theme.
+  - Dev note: assigned using `post sticky`
+
 ### Version 0.1.5
 Changes:
   - Changed color of username in followers/following list from grey to orange.
