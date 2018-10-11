@@ -1,5 +1,5 @@
 # Ferzu-Dark-Stylus
-### Version 0.1.6
+### Version 0.1.7
 This is a UserCSS file for use with the firefox and chrome plugin Stylus. It adds a dark theme flavor to Ferzu.
 
 ![Ferzu-Dark-Theme](https://raw.githubusercontent.com/Foxtrek64/Ferzu-Dark-Stylus/master/Ferzu%20Dark%20Theme.png)
@@ -28,10 +28,14 @@ Open an issue here on Github or [PM me on Ferzu](https://www.ferzu.com/Member/De
 
 ## Changelog
 
+### Version 0.1.7
+Changes:
+  - Restored sticky post background, adapted for dark theme.
+
 ### Version 0.1.6
 Changes:
   - Remove sticky post background
-  - Will re-add when background is adapted for light theme.
+  - Will re-add when background is adapted for dark theme.
   - Dev note: assigned using `post sticky`
 
 ### Version 0.1.5
