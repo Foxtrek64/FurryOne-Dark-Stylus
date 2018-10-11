@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Ferzu Dark Theme
 @namespace      github.com/openstyles/stylus
-@version        0.1.6
+@version        0.1.7
 @description    A Dark theme for Ferzu
 @author         Foxtrek_64
 @homepageURL    https://github.com/Foxtrek64/Ferzu-Dark-Stylus/
@@ -45,8 +45,7 @@
   }
   /* Fix sticky post background */
   .post.sticky {
-    /* TODO: Replace with dark theme version instead of removing */
-    background: none;
+    background: url("https://raw.githubusercontent.com/Foxtrek64/Ferzu-Dark-Stylus/master/sticky-post.png") repeat-x;
   }
   /* Apply the overridden background gradient on sidebar */
   table td.left.navt {
