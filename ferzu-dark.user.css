@@ -1,12 +1,12 @@
 /* ==UserStyle==
 @name           Ferzu Dark Theme
 @namespace      github.com/openstyles/stylus
-@version        0.1.7
+@version        0.1.8
 @description    A Dark theme for Ferzu
 @author         Foxtrek_64
 @homepageURL    https://github.com/Foxtrek64/Ferzu-Dark-Stylus/
 @updateURL      https://raw.githubusercontent.com/Foxtrek64/Ferzu-Dark-Stylus/master/ferzu-dark.user.css
-@license        mpl-2.0
+@license        MIT
 ==/UserStyle== */
 
 @-moz-document domain("www.ferzu.com") {
