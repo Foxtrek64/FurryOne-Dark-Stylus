@@ -1,0 +1,104 @@
+/* ==UserStyle==
+@name           Furry.one Dark Theme
+@namespace      github.com/openstyles/stylus
+@version        0.1.0
+@description    A dark theme for Furry.one
+@author         Foxtrek_64
+@homepageURL    https://github.com/Foxtrek64/FurryOne-Dark-Stylus
+@updateURL      https://raw.githubusercontent.com/Foxtrek64/FurryOne-Dark-Stylus/master/furryone-dark.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("furry.one") {
+  body {
+    background-color: #222;
+    color: #eee;
+  }
+  
+  .groups-profile-banner .profiles-menu {
+    background-color: #333;
+  }
+  .groups-profile-banner .profiles-menu > ul > li > a {
+    font-weight: bold;
+  }
+  
+  .block {
+    background-color: #333 !important;
+  }
+  
+  .ynfeed_form_share_holder {
+    background-color: #333;
+  }
+  
+  .ynfeed_form_share_holder .activity_feed_form_share {
+    background-color: #333;
+  }
+  
+  .ynfeed_form_share_holder ul.activity_feed_form_attach > li > a, .ynfeed_form_edit ul.activity_feed_form_attach > li > a {
+    color: #aaa;
+  }
+  
+  .activity_feed_form, .activity_feed_form_inactive {
+    background-color: #333;
+  }
+  
+  #global_attachment_photo .dropzone-component, #global_attachment_videos .dropzone-component, .pf_select_video .dropzone-component   {
+    background-color: #111;
+  }
+  
+  .pf_v_video_url .table_right #video_url {
+    background-color: #111;
+    color: #eee;
+  }
+  
+  .js_feed_view_more_entry_holder .feed-stream-content, .js_feed_comment_border .feed-stream-content {
+    background-color: #333;
+  }
+  
+  div.comment_mini_content_border {
+    background-color: #333;
+  }
+  
+  .ync-comment-wrapper {
+    background-color: #333;
+  }
+  .ync-comment-box-container {
+    background-color: #333;
+  }
+  
+  .ync-comment-box-edit .item-edit-content .item-box-input, .ync-comment-box .item-edit-content .item-box-input, .ync-comment-box-reply .item-edit-content .item-box-input {
+    background-color: #111;
+  }
+  .ync-comment-box-edit .item-edit-content .item-box-input .ync-comment-textarea-edit, .ync-comment-box .item-edit-content .item-box-input .ync-comment-textarea-edit, .ync-comment-box-reply .item-edit-content .item-box-input .ync-comment-textarea-edit
+  {
+    margin-left: 8px;
+    color: #eee;
+  }
+  .form-control {
+    background-color: #111;
+  }
+  .announcement-slider .item .core-announcement-item {
+    background-color: #666 !important;
+  }
+  .announcement-slider .item .core-announcement-item .item-inner .item-time {
+    color: #ccc;
+  }
+  .announcement-slider .item .core-announcement-item .item-inner .item-desc {
+    color: #eee;
+  }
+  .sticky-bar {
+    background-color: #222;
+  }
+  .sticky-bar .site-logo .site-logo-link .site-logo-icon {
+    background-color: #111;
+  }
+  .sticky-bar #search-panel #header_search_form input.form-control {
+    background-color: #111;
+  }
+  .sticky-bar #search-panel #header_search_form input.form-control:focus {
+    background-color: #111;
+  }
+  #header_search_form input.form-control {
+    color: #eee;
+  }
+}
