@@ -26,7 +26,21 @@ If you would like to contribute to this repository, please...
 ## Found an issue? Have a suggestion?
 Open an issue here on Github or [PM me on FurryOne](https://furry.one/Foxtrek_64).
 
+## Versioning
+  - 0.x.x - beta (rapidly changing)
+  - 1.x.x - release (stable, mostly just bug fixes)
+
+Major.Minor.Build, where:
+    - Major refers to beta or release as above
+    - Minor refers to major pack updates. Generally a grouping of many bugfixes.
+    - Build refers to a particular bug fix. Generally won't be used due to the scope of the project being so small.
+
 ## Changelog
+
+### Version 0.2.0
+  - Fix forum left sidebar color
+  - Fix forum body color
+  - Styled member, auction, image letterbox, and "page" pages
 
 ### Version 0.1.0
   - Initial Release

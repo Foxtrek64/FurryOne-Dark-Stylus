@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Furry.one Dark Theme
 @namespace      github.com/openstyles/stylus
-@version        0.1.0
+@version        0.2.0
 @description    A dark theme for Furry.one
 @author         Foxtrek_64
 @homepageURL    https://github.com/Foxtrek64/FurryOne-Dark-Stylus
@@ -100,5 +100,86 @@
   }
   #header_search_form input.form-control {
     color: #eee;
+  }
+  #js_block_border_core_menusub ul.action > li.active > a, #js_block_border_core_menusub ul.action > li.active > a:hover, #js_block_border_core_menusub ul.action > li.active > a:focus
+  {
+    background-color: #666;
+    color: #eee !important;
+  }
+  #content-stage {
+    background-color: #333;
+  }
+  
+  /* Forum */
+  .forum-app.forum-main.level-1 > article.is_toggled {
+    background-color: #333;
+  }
+  .forum-app.forum-main.level-2 {
+    background-color: #333;
+  }
+  .forum-app.forum-main article.item-forum .item-outer .item-inner .item-title a {
+    color: #999;
+  }
+  .forum-app.forum-main article.item-forum .item-outer .item-inner .item-title a:hover {
+    color: #ea5300;
+  }
+  .forum-app.forum-main.level-1 > article > .item-outer:hover .item-description {
+    color: #eee;
+  }
+  .pages_link_span > a, .user_profile_link_span > a, .pages_link_span > a, .user_profile_link_span > a {
+    color: #999 !important;
+  }
+  #page_forum_forum .forum-app.my-thread article .item-outer .section-right .item-author-rep .user_profile_link_span, #page_forum_forum .forum-app.announcements article .item-outer .section-right .item-author-rep .user_profile_link_span, #page_forum_forum .forum-app.my-thread article .item-outer .section-right .item-author-rep .user_profile_link_span a, #page_forum_forum .forum-app.announcements article .item-outer .section-right .item-author-rep .user_profile_link_span a {
+    color: #999 !important;
+    font-weight: bold !important;
+  }
+  #page_forum_forum .forum-app.my-thread article .item-outer.sticky, #page_forum_forum .forum-app.announcements article .item-outer.sticky, #page_forum_forum .forum-app.my-thread article .item-outer.sponsored, #page_forum_forum .forum-app.announcements article .item-outer.sponsored {
+    background-color: #111;
+  }
+  
+  /* Members */
+  .ynmember_block_item_birthday.two-item .ynmember_day {
+    color: #999;
+  }
+  .ynmember_birthday_upcoming ul li .ynmember_info .ynmember_day {
+    color: #999;
+  }
+  
+  /* Auction */
+  #auction_category_menus .main_category_item > a > span {
+    color: #eee;
+  }
+  .auction_categories_alfabet, .auction_categories_content {
+    background-color: #444;
+  }
+  
+  /* Posts */
+  .ync-photovp-container .ync-photovp-block-info, .item_view {
+    background-color: #333;
+  }
+  .ync-photovp-container .ync-photovp-block-info .ync-photovp-comment-container .ync-comment-wrapper textarea, .ync-comment-box-edit .item-edit-content .item-box-input .ync-comment-group-icon, .ync-comment-box .item-edit-content .item-box-input .ync-comment-group-icon, .ync-comment-box-reply .item-edit-content .item-box-input .ync-comment-group-icon {
+    background-color: #111;
+  }
+  
+  /* Pages */
+  #page_pages_index .item-page-title-block .item-title, .item-container.page-home .page-item .item-outer .item-inner .item-title a {
+    color: #eee;
+  }
+  .item-container.page-home .page-item .item-outer .item-inner .item-number-like {
+    color: #999;
+  }
+  #js_block_border__apps_phpfox_shoutbox_block_chat .content .panel-footer {
+    background-color: #222;
+    border: #333 solid 1px;
+  }
+  .user_rows_mini .user_rows {
+    background-color: #222;
+    border: none; 
+  }
+  .user_rows_mini .user_rows .pages_link_span > a, .user_rows_mini .user_rows .pages_link_span > a:hover, .user_rows_mini .user_rows .user_profile_link_span, .user_rows_mini .user_rows .user_profile_link_span:hover {
+    background: transparent;
+  }
+  .pages-profile-banner .profiles-menu {
+    background-color: #333;
   }
 }
