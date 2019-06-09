@@ -37,6 +37,9 @@ Major.Minor.Build, where:
 
 ## Changelog
 
+### Version 0.3.0
+  - Make forum posts legible again
+
 ### Version 0.2.0
   - Fix forum left sidebar color
   - Fix forum body color

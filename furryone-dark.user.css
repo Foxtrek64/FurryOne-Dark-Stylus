@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Furry.one Dark Theme
 @namespace      github.com/openstyles/stylus
-@version        0.2.0
+@version        0.3.0
 @description    A dark theme for Furry.one
 @author         Foxtrek_64
 @homepageURL    https://github.com/Foxtrek64/FurryOne-Dark-Stylus
@@ -135,6 +135,12 @@
   }
   #page_forum_forum .forum-app.my-thread article .item-outer.sticky, #page_forum_forum .forum-app.announcements article .item-outer.sticky, #page_forum_forum .forum-app.my-thread article .item-outer.sponsored, #page_forum_forum .forum-app.announcements article .item-outer.sponsored {
     background-color: #111;
+  }
+  .forum_header_menu, div.forum_outer {
+     background-color: #333;
+  }
+  .sub_menu_bar > li > a {
+    background-color: inherit;
   }
   
   /* Members */
