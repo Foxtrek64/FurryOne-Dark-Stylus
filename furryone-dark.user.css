@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Furry.one Dark Theme
 @namespace      github.com/openstyles/stylus
-@version        0.4.0
+@version        0.5.0
 @description    A dark theme for Furry.one
 @author         Foxtrek_64
 @homepageURL    https://github.com/Foxtrek64/FurryOne-Dark-Stylus
@@ -76,6 +76,7 @@
   }
   .form-control {
     background-color: #111;
+    color: #999;
   }
   .announcement-slider .item .core-announcement-item {
     background-color: #666 !important;
@@ -182,7 +183,7 @@
     border: #333 solid 1px;
   }
   .user_rows_mini .user_rows {
-    background-color: #222;
+    background-color: inherit;
     border: none; 
   }
   .user_rows_mini .user_rows .pages_link_span > a, .user_rows_mini .user_rows .pages_link_span > a:hover, .user_rows_mini .user_rows .user_profile_link_span, .user_rows_mini .user_rows .user_profile_link_span:hover {
@@ -190,6 +191,9 @@
   }
   .pages-profile-banner .profiles-menu {
     background-color: #333;
+  }
+  .user_rows, .user_rows .user_profile_link_span, #page_pages_members .pages-member-container .user_rows .user_rows_inner .user_profile_link_span a, .user_rows .pages_link_span > a, .user_rows .pages_link_span > a:hover, .user_rows .user_profile_link_span, .user_rows .user_profile_link_span:hover, #page_pages_members .pages-member-container .user_rows .user_rows_inner .user_profile_link_span a:hover {
+    background-color: inherit;
   }
 
   /* Groups */
@@ -213,6 +217,9 @@
   .music-listing .music_row .button-play .ico {
     color: #999;
   }
+  .music-listing .music_row .item-outer .item-inner .item-categories a {
+    color: #5bc0de;
+  }
   
   /* Videos */
   .item-container.video-listing .video-item .item-outer .item-inner .item-title a {
@@ -227,4 +234,45 @@
   .ync-videovp-container .ync-videovp-block-info .ync-videovp-comment-container .feed_comments_wrapper textarea, .ync-videovp-container .ync-videovp-block-info .ync-videovp-comment-container .comment_mini_textarea_holder textarea, .ync-videovp-container .ync-videovp-block-info .ync-videovp-comment-container .ync-comment-wrapper textarea {
     background-color: #111;
   }
+
+  /* Profile */
+  .profiles_menu {
+    background-color: #333;
+  }
+  .profiles_menu > ul > li > a > span, .profiles_menu > ul > li > a:hover > span {
+    background-color: inherit;
+  }
+  .profiles_menu > ul > li > a, .profiles_menu > ul > li > a:hover {
+    color: #eee;
+  }
+  .profiles_menu > ul > li:hover > a:hover {
+    color: #ea5300;
+  }
+
+  /* Events */
+  .header_bar_search .p-advance-search-form {
+    background-color: #222 !important;
+  }
+  .header_bar_search .p-advance-search-form input.form-control {
+    background-color: #111;
+    font-size: 14px;
+  }
+  .input-group-btn:last-child > .btn, .input-group-btn:last-child > .btn-group {
+    background-color: #111;
+    border: #eee 1px solid;
+    border-left: transparent;
+  }
+  .jdpicker_w .date_selector {
+    background-color: #111;
+  }
+  .jdpicker_w .date_selector th {
+    color: #999;
+  }
+  .jdpicker_w .date_selector td span {
+    color: #eee;
+  }
+  .jdpicker_w .date_selector td.today:not(.available) span {
+    color: #eee;
+    background-color: #0267CC;
+  }  
 }

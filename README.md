@@ -1,5 +1,5 @@
 # FurryOne-Dark-Stylus
-### Version 0.1.0
+### Version 0.5.0
 This is a UserCSS file for use with the firefox and chrome plugin Stylus. It adds a dark theme flavor to Ferzu.
 
 ![FurryOne-Dark-Theme](https://raw.githubusercontent.com/Foxtrek64/FurryOne-Dark-Stylus/master/furryone%20dark%20theme.png)
@@ -36,6 +36,14 @@ Major.Minor.Build, where:
     - Build refers to a particular bug fix. Generally won't be used due to the scope of the project being so small.
 
 ## Changelog
+
+### Version 0.5.0
+  - Fix group member listing name background color
+  - Actually include profile menu color fix (oops)
+  - Actually include music genre color fix (oops)
+  - Changed member listing background from `#222` to `inherit` for consistency
+  - Changed form entry color across the board to `color: #999;`, hopefully.
+  - Changed event search text fields to `font-size: 14px;` to match other input fields across site.
 
 ### Version 0.4.0
   - Fix Groups and Music colors
