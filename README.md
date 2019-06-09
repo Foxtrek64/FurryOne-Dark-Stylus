@@ -37,6 +37,13 @@ Major.Minor.Build, where:
 
 ## Changelog
 
+### Version 0.4.0
+  - Fix Groups and Music colors
+  - Fix forum post title color
+  - Fix music genre color (a nice cool blue)
+  - Fix profile menu color
+  - Fix Marketplace listing title color
+
 ### Version 0.3.0
   - Make forum posts legible again
 

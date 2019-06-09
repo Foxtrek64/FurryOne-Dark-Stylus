@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Furry.one Dark Theme
 @namespace      github.com/openstyles/stylus
-@version        0.3.0
+@version        0.4.0
 @description    A dark theme for Furry.one
 @author         Foxtrek_64
 @homepageURL    https://github.com/Foxtrek64/FurryOne-Dark-Stylus
@@ -142,6 +142,9 @@
   .sub_menu_bar > li > a {
     background-color: inherit;
   }
+  h1 a, h1 a:hover, .h1 a, .h1 a:hover {
+    color: #eee;
+  }
   
   /* Members */
   .ynmember_block_item_birthday.two-item .ynmember_day {
@@ -187,5 +190,41 @@
   }
   .pages-profile-banner .profiles-menu {
     background-color: #333;
+  }
+
+  /* Groups */
+  .item-container.group-home .group-item .item-outer .item-inner .item-title a {
+    color: #eee;
+  }
+  .item-container.group-home .group-item .item-outer .item-inner .item-number-member {
+    color: #999;
+  }
+  #page_groups_index .item-group-title-block .item-title {
+    color: #eee;
+  }
+  
+  /* Music */
+  .music-listing .music_row .item-title a {
+    color: #eee;
+  }
+  .music-listing .music_row .item-outer .item-info .item-statistic span .count {
+    color: #999;
+  }
+  .music-listing .music_row .button-play .ico {
+    color: #999;
+  }
+  
+  /* Videos */
+  .item-container.video-listing .video-item .item-outer .item-inner .item-title a {
+    color: #eee !important;
+  }
+  .ync-videovp-block-info {
+    background-color: #333;
+  }
+  .ync-videovp-container .ync-videovp-block-info .item_view .videovp-title-text, .ync-videovp-container .ync-videovp-block-info .item_view .videovp-description-text, .ync-comment-item .item-outer .item-inner .item-comment-content {
+    color: #eee;
+  }
+  .ync-videovp-container .ync-videovp-block-info .ync-videovp-comment-container .feed_comments_wrapper textarea, .ync-videovp-container .ync-videovp-block-info .ync-videovp-comment-container .comment_mini_textarea_holder textarea, .ync-videovp-container .ync-videovp-block-info .ync-videovp-comment-container .ync-comment-wrapper textarea {
+    background-color: #111;
   }
 }
